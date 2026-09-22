@@ -3,23 +3,14 @@
 Gilmar A. de O. Neto
 texte de texto
 
-version: "3"
-services:
-  php:
-    build: .
-    image: php:8.1.16-apache
-    container_name: "php-apache-dw"
-    volumes:
-      - ./codigo/:/var/www/html/
-    ports:
-      - 81:80
-  
-  db:
-    image: mariadb:10.5
-    container_name: "mariadb-dw"
-    restart: always
-    environment:
-      - MARIADB_USER=root
-      - MARIADB_ROOT_PASSWORD=123
-    ports:
-      - 3307:3306
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
